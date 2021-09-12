@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+#switzerland{
+    height: 100px;
+    width:200px;
+}
+ .swizz{
+    height: 70px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 38px;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    border-radius: 35%;
+    background-color: transparent;
+    animation: animation 5s infinite;
+    } 
+
+    @keyframes animation{
+        0%{color: darkorange;}	
+        25%{color: darkgreen}	
+        50%{color: darkred;}
+        75%{color: black;}
+        100%{color: white;}
+        
+    }
+#switzerland .zermatt{
+    display: none;
+    position: absolute;
+    top: 33px;
+    left: 200px;
+    
+}
+#switzerland:hover .zermatt{
+    display: inline;
+}
+.zermatt{
+    height:150px;
+    width:150px;
+}
+  #switzerland .swiss{
+    display: none;
+    position: absolute;
+    left: 480px;
+      top: 33px;
+    
+    
+}
+#switzerland:hover .swiss{
+    display: inline;
+}
+.swiss{
+    height:150px;
+    width:150px;
+}
+#switzerland .geneva{
+    display: none;
+    position: absolute;
+    left: 335px;
+      top: 33px;
+    
+    
+}
+#switzerland:hover .geneva{
+    display: inline;
+}
+.geneva{
+    height:150px;
+    width:150px;
+} 

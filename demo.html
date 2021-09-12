@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="demo.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#btn1").click(function() {
+                var msg = $("#text1").val()
+                console.log(msg)
+                var time = new Date();
+                $("#chat").append("<span class=p1>" + msg +"&nbsp;&nbsp;"+"<b>"+ time.getHours() + ":" + time.getMinutes()+"</b>" + "</span><br><br>")
+                $("#chat1").append("<span class=p2>" + msg +"&nbsp;&nbsp;" +"<b>"+time.getHours() + ":" + time.getMinutes() + "</b>" + "</span><br><br>")
+                $("#text1").val("")
+            })
+        })
+
+        $(document).ready(function() {
+            $("#btn2").click(function() {
+                var msg1 = $("#text3").val()
+                console.log(msg1)
+                var time = new Date();
+                $("#chat1").append("<span class=p3>" + msg1 +"&nbsp;&nbsp;"+"<b>"+ time.getHours() + ":" + time.getMinutes()+"</b>" + "</span><br><br>")
+                $("#chat").append("<span class=p4>" + msg1 +"&nbsp;&nbsp;" +"<b>"+time.getHours() + ":" + time.getMinutes() + "</b>" + "</span><br><br>")
+                $("#text3").val("")
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="body">
+
+        <div id="header">
+            <div id="dp1">
+                <span>
+                    <img src="/acropolis.jpg" alt="" id="jb"> 
+                    <div id="name">BOND</div>
+                </span>
+            </div>
+
+
+
+        </div>
+
+        <div id="chat">
+
+        </div>
+
+        <div id="text">
+            <input type="text" name="text" id="text1">
+            <button type="submit" id="btn1">send</button>
+        </div>
+
+
+    </div>
+
+    <div id="body1">
+        <div id="header1">
+            <div id="dp2">
+                <span>
+                    <img src="/batasia.jpg" alt="" id="sb">
+                    <div id="name1">SHELBY</div>
+                </span>
+            </div>
+        </div>
+
+        <div id="chat1">
+
+        </div>
+
+        <div id="text2">
+            <input type="text" name="text" id="text3">
+            <button type="submit" id="btn2">send</button>
+        </div>
+    </div>
+</body>
+
+</html>

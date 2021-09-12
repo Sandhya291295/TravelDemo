@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+}
+#a{
+    height: 180px;
+    width: 250px;
+   
+}
+#b{
+    height: 180px;
+    width: 250px; 
+
+}
+#c{
+    height: 180px;
+    width: 250px;
+}
+#d{
+    height: 180px;
+    width: 250px;
+}
+#e{
+    height: 180px;
+    width: 250px;
+}
+#f{
+    height: 180px;
+    width: 250px;
+}
+#g{
+    height: 180px;
+    width: 250px;
+}
+#h{
+    height: 180px;
+    width: 250px;
+}
+#i{
+    height: 180px;
+    width: 250px;
+}
+#j{
+    height: 180px;
+    width: 250px;
+}
+#k{
+    height: 180px;
+    width: 250px;
+}
+#l{
+    height: 180px;
+    width: 250px;
+}
+#m{
+    height: 180px;
+    width: 250px;
+}
+#n{
+    height: 180px;
+    width: 250px;
+}
+
+#o{
+    height: 180px;
+    width: 250px;
+}
+#p{
+    height: 180px;
+    width: 250px;
+}
+#q{
+    height: 180px;
+    width: 250px;
+}
+#r{
+    height: 180px;
+    width: 250px;
+}
+#s{
+    height: 180px;
+    width: 250px;
+}
+#t{
+    height: 180px;
+    width: 250px;
+}
+.circlebutton{
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-top: 15px;
+
+  }
+  #circle{
+      height:33px ;
+      width:50px;
+      font-size: 45px;
+      font-weight: bolder;
+      color: black;
+      border: black;
+      border-radius: 50%;
+      margin-top: -25px;
+      background-color: chartreuse;
+  }
+  nav{
+    margin-top: 20px;
+     height:45px;
+ } 
+ #contact{
+       
+    background-color: orangered;
+    color: black;
+    height: 33px;
+    width: 150px;
+    font-size: 17.5px;
+    font-family:serif;
+    font-weight:bold;
+}
+.nav3{
+    margin-left: 1100px;
+    margin-top: -30px;
+}
+#home{
+    margin-top: -30px;
+   background-color: orangered;
+   color: black;
+   height: 33px;
+   width: 100px;
+   font-size: 17.5px;
+   font-family:serif;
+   font-weight:bold;
+}
+.nav1{
+   margin-left: 200px;
+   margin-top: -40px;
+}
+#photos{
+    margin-top: -3px;
+    background-color:burlywood;
+    color: black;
+    height: 33px;
+    width: 100px;
+    font-size: 17.5px;
+    font-family:serif;
+    font-weight:bold;
+   }
+   .nav2{
+       margin-left: 650px;
+       margin-top: -30px;
+   }
+

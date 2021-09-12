@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+#greece{
+    height: 100px;
+    width:200px;
+}
+ .grec{
+    height: 70px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 38px;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    border-radius: 35%;
+    background-color: transparent;
+    animation: animation 5s infinite;
+    }
+    @keyframes animation{
+        0%{color: darkorange;}	
+        25%{color: darkgreen}	
+        50%{color: darkred;}
+        75%{color: black;}
+        100%{color: white;}
+    } 
+#greece .rhodes{
+    display: none;
+    position: absolute;
+    top: 145px;
+    left: 480px;
+    
+}
+#greece:hover .rhodes{
+    display: inline;
+}
+.rhodes{
+    height:150px;
+    width:150px;
+    
+}
+  #greece .corfu{
+    display: none;
+    position: absolute;
+    left: 200px;
+      top: 145px;
+    
+    
+}
+#greece:hover .corfu{
+    display: inline;
+}
+.corfu{
+    height:150px;
+    width:150px;
+}
+#greece .museum{
+    display: none;
+    position: absolute;
+    left: 335px;
+      top: 145px;
+    
+    
+}
+#greece:hover .museum{
+    display: inline;
+}
+.museum{
+    height:150px;
+    width:150px;
+} 

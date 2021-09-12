@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+#kerala{
+    height: 100px;
+    width:200px;
+}
+ .ker{
+    height: 70px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 38px;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    border-radius: 35%;
+    background-color: transparent;
+    animation: animation 5s infinite;
+ }
+ @keyframes animation{
+    0%{color: darkorange;}	
+    25%{color: darkgreen}	
+    50%{color: darkred;}
+    75%{color: black;}
+    100%{color: white;}
+ } 
+#kerala .munnar{
+    display: none;
+    position: absolute;
+    top: 345px;
+    left: 480px;
+    
+}
+#kerala:hover .munnar{
+    display: inline;
+}
+.munnar{
+    height:150px;
+    width:150px;
+    
+}
+  #kerala .kovalam{
+    display: none;
+    position: absolute;
+    left: 200px;
+      top: 345px;
+    
+    
+}
+#kerala:hover .kovalam{
+    display: inline;
+}
+.kovalam{
+    height:150px;
+    width:150px;
+}
+#kerala .Kumarakom{
+    display: none;
+    position: absolute;
+    left: 335px;
+      top: 345px;
+    
+    
+}
+#kerala:hover .Kumarakom{
+    display: inline;
+}
+.Kumarakom{
+    height:150px;
+    width:150px;
+} 
